@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: fit-content;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 2%;
+}
+
+.article-thumb {
+   border-radius: 12px;
+}
+
+.tag-card {
+    text-align: justify;
+    width: 23%;
+    border: 2px solid hsl(47, 88%, 63%);
+    padding: 2%;
+    border-radius: 8px;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.article-description {
+    width: 70%;
+}
